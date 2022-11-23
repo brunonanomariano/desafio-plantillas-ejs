@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Carga</title>
+</head>
+<body>
+    <h1>Formulario de Carga</h1>
+    <form id="productForm" action="/productos" method="post">
+        <label>Titulo</label>
+        <input name="title">
+        <label>Precio</label>
+        <input name="price">
+        <label>Url Imagen</label>
+        <input name="thumbnail">
+        <button>Enviar</button>
+    </form>
+    <form id="productForm" action="/productos" method="get">
+        <button>Consultar Productos</button>
+    </form>
+</body>
+</html>
